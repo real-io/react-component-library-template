@@ -1,0 +1,7 @@
+{
+  "name": "react-component-library-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com-real-io:real-io/react-component-library-template.git",
+  "license": "MIT"
+}
