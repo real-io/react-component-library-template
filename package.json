@@ -3,5 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com-real-io:real-io/react-component-library-template.git",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.2.23",
+    "react": "^18.2.0",
+    "typescript": "^5.2.2"
+  }
 }
