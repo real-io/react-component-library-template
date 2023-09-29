@@ -4,8 +4,8 @@ interface IButtonProps {
   text: string;
 }
 
-const Button: React.FunctionComponent<IButtonProps> = ({ text }) => {
-  return <button>{text}</button>;
+const Button = (props: IButtonProps) => {
+  return <button>{props.text}</button>;
 };
 
 export default Button;
