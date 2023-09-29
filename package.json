@@ -1,26 +1,43 @@
 {
   "name": "@real-io/react-component-library-template",
-  "version": "0.0.4",
+  "version": "0.0.7",
   "repository": "git@github.com-real-io:real-io/react-component-library-template.git",
   "license": "MIT",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/real-io"
   },
   "scripts": {
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.22.20",
+    "@babel/preset-react": "^7.22.15",
+    "@babel/preset-typescript": "^7.23.0",
     "@rollup/plugin-commonjs": "^25.0.4",
     "@rollup/plugin-node-resolve": "^15.2.1",
     "@rollup/plugin-terser": "^0.4.3",
     "@rollup/plugin-typescript": "^11.1.4",
+    "@storybook/addon-essentials": "^7.4.5",
+    "@storybook/addon-interactions": "^7.4.5",
+    "@storybook/addon-links": "^7.4.5",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/addon-styling": "^1.3.7",
+    "@storybook/blocks": "^7.4.5",
+    "@storybook/react": "^7.4.5",
+    "@storybook/react-webpack5": "^7.4.5",
+    "@storybook/testing-library": "^0.2.1",
     "@types/react": "^18.2.23",
     "node-sass": "^9.0.0",
     "postcss": "^8.4.31",
     "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rollup": "^3.29.4",
     "rollup-plugin-dts": "^6.0.2",
     "rollup-plugin-postcss": "^4.0.2",
+    "sass": "^1.68.0",
+    "storybook": "^7.4.5",
     "tslib": "^2.6.2",
     "typescript": "^5.2.2"
   },
@@ -29,6 +46,5 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts",
-  "dependencies": {}
+  "types": "dist/index.d.ts"
 }
