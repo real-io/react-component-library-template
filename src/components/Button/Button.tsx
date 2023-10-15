@@ -1,12 +1,17 @@
 import React from "react";
-import styles from './Button.module.scss';
+import styles from "./Button.module.scss";
+import { Button } from "@radix-ui/themes";
 
 interface IButtonProps {
   text: string;
 }
 
-const Button = (props: IButtonProps) => {
-  return <button className={styles.button}>{props.text}</button>;
+const ButtonWrapper = (props: IButtonProps) => {
+  return (
+    <>
+      <Button>{props.text}</Button>
+    </>
+  );
 };
 
-export default Button;
+export default ButtonWrapper;
