@@ -9,7 +9,7 @@ interface IButtonProps {
 const ButtonWrapper = (props: IButtonProps) => {
   return (
     <>
-      <Button>{props.text}</Button>
+      <Button className={styles.button}>{props.text}</Button>
     </>
   );
 };
