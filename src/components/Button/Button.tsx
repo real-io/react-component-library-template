@@ -10,6 +10,8 @@ interface IButtonProps {
 }
 
 const ButtonWrapper = ({ variant, addClassName, ...props }: IButtonProps) => {
+
+  console.log({ ButtonWrapper: [styles.button, addClassName].join(" ")});
   return (
     <>
       <Button
