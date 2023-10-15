@@ -1,6 +1,6 @@
 {
   "name": "@real-io/react-component-library-template",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "repository": "git@github.com-real-io:real-io/react-component-library-template.git",
   "license": "MIT",
   "publishConfig": {
