@@ -1,6 +1,6 @@
 {
   "name": "@real-io/react-component-library-template",
-  "version": "0.0.19",
+  "version": "0.0.23",
   "repository": "git@github.com-real-io:real-io/react-component-library-template.git",
   "license": "MIT",
   "publishConfig": {
@@ -42,7 +42,8 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
-    "dist"
+    "dist",
+    "icons"
   ],
   "types": "dist/index.d.ts",
   "peerDependencies": {

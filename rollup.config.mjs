@@ -33,6 +33,25 @@ export default [
     ],
   },
   {
+    input: "src/icons/index.ts",
+    output: [
+      {
+        file: "dist/icons/index.js",
+        format: "cjs",
+        sourcemap: true,
+      },
+    ],
+    plugins: [
+      resolve(),
+      commonjs(),
+      typescript({ tsconfig: "./tsconfig.json", exclude: ["./src/stories/*", "./**/*stories.(js|jsx|mjs|ts|tsx)"]  }),
+      postcss({
+        modules: true,
+        sourceMap: true,
+      }),
+    ],
+  },
+  {
     input: "dist/esm/types/index.d.ts",
     output: [{ file: "dist/index.d.ts", format: "esm" }],
     plugins: [dts()],
