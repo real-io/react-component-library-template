@@ -1,5 +1,1 @@
-import ArrowRight from "./ArrowRight";
-
-export {
-    ArrowRight
-}
+export { default as ArrowRight } from "./ArrowRight";

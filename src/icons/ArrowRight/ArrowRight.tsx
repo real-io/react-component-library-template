@@ -1,6 +1,10 @@
 import React from "react";
 
-const ArrowRight = () => {
+interface IArrowRightProps {
+  test: string
+}
+
+const ArrowRight = (props: IArrowRightProps) => {
   return (
     <svg
       width="16"

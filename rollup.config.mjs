@@ -56,4 +56,9 @@ export default [
     output: [{ file: "dist/index.d.ts", format: "esm" }],
     plugins: [dts()],
   },
+  {
+    input: "dist/icons/types/icons/index.d.ts",
+    output: [{ file: "dist/icons/index.d.ts", format: "esm" }],
+    plugins: [dts()],
+  },
 ];
