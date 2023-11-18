@@ -27,6 +27,7 @@ export default [
       typescript({ tsconfig: "./tsconfig.json", exclude: ["./src/stories/*", "./**/*stories.(js|jsx|mjs|ts|tsx)"]  }),
       postcss({
         modules: true,
+        extract: "main.css",
         sourceMap: true,
       }),
     ],
