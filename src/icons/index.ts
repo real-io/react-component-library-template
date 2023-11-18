@@ -1,5 +1,5 @@
-import Button from "./ArrowRight";
+import ArrowRight from "./ArrowRight";
 
 export {
-    Button
+    ArrowRight
 }
